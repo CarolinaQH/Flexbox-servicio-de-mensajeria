@@ -1,0 +1,108 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+    width: auto;
+}
+
+/* base de la página en general */
+
+.netprincipal {
+    display: flex;
+    
+}
+
+/* This is part 1 of the page */
+
+/* .net1 {
+    padding-left: 2%;
+} */
+
+.cell1 {
+    display: flex;
+    width: 20vw;
+    border: solid 2px rgba(0, 0, 0, 0.178);
+}
+
+.baseimage {
+    width: 30%;
+
+}
+
+.baseimage img {
+    border-radius: 100%;
+    width: 5vw;
+    border: solid 3px rgba(0, 0, 0, 0.181);
+}
+
+#cell1img {
+    border-radius: 100%;
+    width: 5vw;
+    border: solid 3px rgb(8, 205, 8);
+}
+
+.basetext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basetext h3 {
+    height: 0;
+}
+
+#cell1text {
+    color: rgb(8, 156, 8);;
+}
+
+/* bootstrap */
+
+.faicons {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    color: rgba(0, 0, 0, 0.579);
+}
+
+/* boton */
+
+.cell2 {
+    height: 16vh;
+    text-align: center;
+    border: solid 2px rgba(0, 0, 0, 0.178);
+}
+
+.cell2 button {
+    flex-direction: column;
+    background-color: #A491D2;
+    color: white;
+}
+
+
+/* img manos */
+
+.main{
+    padding-top: 10%;
+    text-align: center;
+    width: 100%;
+}
+
+/* .principal {
+    padding-top: 20%;
+    text-align: center;
+    width: 100%;
+} */
+
+.principal img {
+    width: 450px;
+}
+
+.principaltitle h1 {
+    font-size: 350%;
+
+}
+
+.principaltext p {
+    font-size: x-large;
+}
